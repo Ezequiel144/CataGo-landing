@@ -1,0 +1,30 @@
+---
+import "remixicon/fonts/remixicon.css";
+import "@fontsource/pacifico";
+// Supports weights 300-700
+import "@fontsource-variable/quicksand";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro Basics</title>
+  </head>
+  <body class="text-primaryColor-black relative">
+    <slot />
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Quicksand Variable", sans-serif;
+  }
+</style>
