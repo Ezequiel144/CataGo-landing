@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/images/image-function-1.png",
+    "id": "selectProducts",
+    "description": "Elegís los <span style='font-family: Pacifico, cursive;'>productos</span> que mas que gusten",
+    "color": "blue"
+  },
+  {
+    "image": "/images/image-function-2.png",
+    "id": "addCart",
+    "description": "Lo pones en el <span style='font-family: Pacifico, cursive;'>carrito</span> de compra",
+    "color": "aqua"
+  },
+  {
+    "image": "/images/image-function-3.png",
+    "id": "checkout",
+    "description": "Elegís como quieres que sea en <span style='font-family: Pacifico, cursive;'>envió</span> y confirmas tu <span style='font-family: Pacifico, cursive;'>información</span> para el pedido",
+    "color": "magenta"
+  },
+  {
+    "image": "/images/image-function-4.png",
+    "id": "sendSms",
+    "description": "Te llega el pedido por <span style='font-family: Pacifico, cursive;'>whatsapp</span>",
+    "color": "orange"
+  }
+]
