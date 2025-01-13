@@ -1,0 +1,27 @@
+[
+  {
+    "img": "/images/image-dashboard-1.png",
+    "description": "Muestra la información de tu <span style='font-family: Pacifico, cursive;'>negocio</span>, <span style='font-family: Pacifico, cursive;'>Estilízalo</span> como vos quieras y agrega las <span style='font-family: Pacifico, cursive;'>redes sociales</span> que mas te gustes",
+    "id": "dash-general"
+  },
+  {
+    "img": "/images/image-dashboard-2.png",
+    "description": "Organiza tus productos, <span style='font-family: Pacifico, cursive;'>búscalos</span>, <span style='font-family: Pacifico, cursive;'>agrega</span> nuevos y <span style='font-family: Pacifico, cursive;'>filtrar<span> todo lo que vos quieras",
+    "id": "dash-products"
+  },
+  {
+    "img": "/images/image-dashboard-3.png",
+    "description": "Crea, edita, modifica y enlaza las <span style='font-family: Pacifico, cursive;'>categorías</span> y <span style='font-family: Pacifico, cursive;'>subcategorías</span> que vos quieras ",
+    "id": "dash-categories"
+  },
+  {
+    "img": "/images/image-dashboard-4.png",
+    "description": "4 formas diferentes de <span style='font-family: Pacifico, cursive;'>envió</span> para darle mayor posibilidad a tus <span style='font-family: Pacifico, cursive;'>clientes</span>",
+    "id": "dash-shipments"
+  },
+  {
+    "img": "/images/image-dashboard-5.png",
+    "description": "Posibilidad de hacer <span style='font-family: Pacifico, cursive;'>promociones</span> en tu <span style='font-family: Pacifico, cursive;'>carrito</span> de compra con el <span style='font-family: Pacifico, cursive;'>descuento</span> que vos quieras",
+    "id": "dash-promotions"
+  }
+]

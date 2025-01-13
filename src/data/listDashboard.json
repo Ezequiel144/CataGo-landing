@@ -1,0 +1,27 @@
+[
+  {
+    "name": "General",
+    "id": "general",
+    "icon": "ri-database-2-line"
+  },
+  {
+    "name": "Productos",
+    "id": "product",
+    "icon": "ri-inbox-unarchive-line"
+  },
+  {
+    "name": "Categorias",
+    "id": "categories",
+    "icon": "ri-dashboard-fill"
+  },
+  {
+    "name": "envios",
+    "id": "shipment",
+    "icon": "ri-truck-line"
+  },
+  {
+    "name": "Promociones",
+    "id": "promotions",
+    "icon": "ri-coins-line"
+  }
+]

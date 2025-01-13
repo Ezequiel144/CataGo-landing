@@ -4,6 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero/Hero";
 import Functions from "../components/Functions/Functions";
 import ActionSteps from "../components/ActionSteps/ActionSteps";
+import FunctionDash from "../components/FuncitonDash/FunctionDash";
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
@@ -13,4 +14,5 @@ import ActionSteps from "../components/ActionSteps/ActionSteps";
   <Hero />
   <Functions />
   <ActionSteps />
+  <FunctionDash client:only />
 </Layout>
