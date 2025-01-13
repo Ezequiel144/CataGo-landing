@@ -14,7 +14,7 @@ export default function Hero() {
             viverra sem. At tristique cursus ultrices lacus leo justo in. Nunc
             nulla nisi elementum turpis.
           </p>
-          <Button name={"comenzar ahora"} href={"#"} />
+          <Button name={"comenzar ahora"} href={"#"} type={1} />
         </div>
         <div className=" w-[596px] h-[441px]">
           <img src="/images/image-hero.png" className="size-full" alt="" />

@@ -1,11 +1,5 @@
-interface PropCardMenu {
-  id: string;
-  index: number;
-  isSelect: number;
-  setIsSelect: (x: number) => void;
-  icon: string;
-  name: string;
-}
+import type { PropCardMenu } from "../../interface/FunctionDash.interface";
+
 export default function CardMenu({
   id,
   index,

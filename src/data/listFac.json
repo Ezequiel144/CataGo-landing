@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Que es CataGo",
+    "id": 1,
+    "response": "Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit."
+  },
+  {
+    "question": "Como ayudara a mi negocio",
+    "id": 2,
+    "response": "Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit.Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit."
+  },
+  {
+    "question": "Se puede usar en el celular",
+    "id": 3,
+    "response": "Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit."
+  },
+  {
+    "question": "Existe algún costo por hacer un pedido",
+    "id": 4,
+    "response": "Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit."
+  },
+  {
+    "question": "Tiene algún mantenimiento",
+    "id": 5,
+    "response": "Lorem ipsum dolor sit amet consectetur. Tortor tortor sit dignissim at ultricies sociis. Vel sed erat adipiscing dui. Malesuada nulla enim vitae eget semper lectus est. Nec dictum auctor nunc imperdiet. Diam vitae placerat adipiscing sollicitudin ut tincidunt eget sodales. Amet nunc at sagittis posuere. Sed dictumst ac lorem risus diam faucibus suscipit."
+  }
+]

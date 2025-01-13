@@ -1,9 +1,4 @@
-interface PropCardFunction {
-  id: string;
-  image: string;
-  description: string;
-  color: string;
-}
+import type { PropCardFunction } from "../../interface/Function.interface";
 
 export default function CardFunction({
   id,

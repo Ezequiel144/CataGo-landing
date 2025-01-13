@@ -1,10 +1,4 @@
-interface PropCardDash {
-  id: string;
-  index: number;
-  isSelect: number;
-  img: string;
-  description: string;
-}
+import type { PropCardDash } from "../../interface/FunctionDash.interface";
 
 export default function CardDash({
   id,
