@@ -15,7 +15,9 @@ export default function CardFac({
       }}
     >
       <div className="flex items-center justify-between cursor-pointer">
-        <span className="text-2xl font-semibold">¿ {question} ?</span>
+        <span className=" text-xl sm:text-2xl font-semibold">
+          ¿ {question} ?
+        </span>
         <i className="ri-add-fill text-2xl" />
       </div>
       <p

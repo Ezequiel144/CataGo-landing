@@ -2,10 +2,10 @@ import { listNavbar } from "../../../utils/navbar";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-[280px] bg-primaryColor-black text-primaryColor-white py-16 ">
-      <section className="w-full max-w-[1216px] mx-auto h-full flex items-start justify-between">
-        <article className="h-full flex flex-col justify-between">
-          <ul className="flex items-center gap-x-4 font-normal text-xl">
+    <footer className="w-full h-fit lg:h-[280px] bg-primaryColor-black text-primaryColor-white py-16 px-3 xl:px-0">
+      <section className="w-full lg:max-w-[1216px] mx-auto h-full flex flex-col lg:flex-row items-center lg:items-start justify-between gap-y-10">
+        <article className="h-full flex flex-col items-center lg:items-start justify-between gap-y-8">
+          <ul className="flex flex-col lg:flex-row items-center gap-4 font-normal text-xl">
             {listNavbar.map((item, index: number) => (
               <li
                 key={index}
@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
           </div>
         </article>
-        <article className="h-full flex flex-col justify-between">
+        <article className="h-full flex flex-col gap-y-8 justify-between">
           <img src="/svg/logo-footer.svg" alt="" />
           <ul className="flex items-center gap-x-4 text-xl font-pacifico">
             <li>

@@ -7,13 +7,13 @@ export default function CardFunction({
   color,
 }: PropCardFunction) {
   return (
-    <li className="w-[650px] h-[420px] rounded-lg border border-primaryColor-black relative overflow-hidden shadow-lg hover:-translate-y-2 duration-300">
+    <li className="size-full py-10 md:py-0 md:w-[650px] md:h-[420px] rounded-lg border border-primaryColor-black relative overflow-hidden shadow-lg hover:-translate-y-2 duration-300">
       <div
         className={`flex items-center justify-between size-full ${
           id === "selectProducts"
-            ? "flex-row pr-1 gap-x-2"
+            ? "md:flex-row flex-col pr-1 gap-x-2"
             : id === "addCart"
-            ? "flex-row-reverse pl-2"
+            ? "md:flex-row-reverse flex-col pl-2"
             : id === "checkout"
             ? "flex-col items-center justify-center py-8"
             : id === "sendSms"
@@ -21,7 +21,7 @@ export default function CardFunction({
             : ""
         }`}
       >
-        <div className="w-[420px] h-[273px] border border-acent-v3 rounded-lg">
+        <div className=" size-full md:w-[420px] md:h-[273px] border border-acent-v3 rounded-lg px-3 md:px-0">
           <img
             src={image}
             alt={id}
@@ -29,7 +29,7 @@ export default function CardFunction({
           />
         </div>
         <h3
-          className={`text-xl font-normal ${
+          className={` text-base md:text-xl font-normal ${
             (id === "checkout" || id === "sendSms") &&
             "text-center max-w-[430px]"
           } ${description === " productos" && "font-pacifico"}`}

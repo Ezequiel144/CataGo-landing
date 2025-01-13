@@ -12,13 +12,17 @@ export default function CardDash({
       key={id}
       className={`${
         isSelect === index ? "block" : "hidden"
-      } flex items-center justify-center gap-x-8 size-full animate-fade-left`}
+      } flex flex-col gap-y-2 md:flex-row items-center justify-center gap-x-8 size-full animate-fade-left px-3 md:px-0`}
     >
-      <div className="h-[285] w-[440px] rounded-lg border border-acent-v1 overflow-hidden">
-        <img src={img} className="size-full object-cover " alt={id} />
+      <div className="size-full md:h-[285px] md:w-[440px] rounded-lg border border-acent-v1 overflow-hidden">
+        <img
+          src={img}
+          className="size-full object-contain md:object-cover "
+          alt={id}
+        />
       </div>
       <p
-        className="size-fit max-w-[265px] text-base"
+        className="size-fit max-w-[265px] text-base text-center md:text-left"
         dangerouslySetInnerHTML={{ __html: description }}
       />
     </li>
