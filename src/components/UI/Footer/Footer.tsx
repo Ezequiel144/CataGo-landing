@@ -11,7 +11,7 @@ export default function Footer() {
                 key={index}
                 className="hover:text-acent-v1 transition-all duration-200"
               >
-                <a href={item.id}>{item.name}</a>
+                <a href={`#${item.id}`}>{item.name}</a>
               </li>
             ))}
           </ul>

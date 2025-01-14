@@ -17,7 +17,7 @@ export default function CardDash({
       <div className="size-full md:h-[285px] md:w-[440px] rounded-lg border border-acent-v1 overflow-hidden">
         <img
           src={img}
-          className="size-full object-contain md:object-cover "
+          className="size-full object-cover object-left-top "
           alt={id}
         />
       </div>

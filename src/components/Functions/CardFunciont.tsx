@@ -21,7 +21,7 @@ export default function CardFunction({
             : ""
         }`}
       >
-        <div className=" size-full md:w-[420px] md:h-[273px] border border-acent-v3 rounded-lg px-3 md:px-0">
+        <div className=" size-full md:w-[420px] md:h-[273px] rounded-lg px-3 md:px-0">
           <img
             src={image}
             alt={id}
