@@ -13,13 +13,13 @@ export default function Hero() {
             <span className="font-pacifico">sin costo de comisión</span>
           </h1>
           <p className="font-normal leading-8 text-xl text-center md:text-left">
-            Lorem ipsum dolor sit amet consectetur. Risus viverra massa eget
-            viverra sem. At tristique cursus ultrices lacus leo justo in. Nunc
-            nulla nisi elementum turpis.
+            Con CataGo, organiza y vende tus productos de forma fácil y
+            eficiente a través de WhatsApp. Sin complicaciones, sin costos
+            altos, solo una solución práctica para hacer crecer tu negocio
           </p>
           <Button
             name={"comenzar ahora"}
-            href={"#"}
+            href={"https://wa.me/1538497927?text=hola,%20quiero%20mi%20catalogo%20"}
             type={1}
             style={"mx-auto md:m-0 w-full text-center md:w-fit md:text-left"}
           />
