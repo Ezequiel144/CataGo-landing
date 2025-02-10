@@ -11,7 +11,7 @@
   },
   {
     "img": "/images/image-dashboard-3.png",
-    "description": "Crea, edita, modifica y enlaza las <span style='font-family: Pacifico, cursive;'>categorías</span> y <span style='font-family: Pacifico, cursive;'>subcategorías</span> que vos quieras ",
+    "description": "Crea, edita, modifica y carga imagen de las <span style='font-family: Pacifico, cursive;'>categorías</span> que vos quieras ",
     "id": "dash-categories"
   },
   {
