@@ -17,12 +17,22 @@ export default function Hero() {
             eficiente a través de WhatsApp. Sin complicaciones, sin costos
             altos, solo una solución práctica para hacer crecer tu negocio
           </p>
-          <Button
-            name={"comenzar ahora"}
-            href={"https://wa.me/1538497927?text=hola,%20quiero%20mi%20catalogo%20"}
-            type={1}
-            style={"mx-auto md:m-0 w-full text-center md:w-fit md:text-left"}
-          />
+          <div className="flex flex-col items-center gap-3 md:flex-row">
+            <Button
+              name={"comenzar ahora"}
+              href={
+                "https://wa.me/1538497927?text=hola,%20quiero%20mi%20catalogo%20"
+              }
+              type={1}
+              style={"mx-auto md:m-0 w-full text-center md:w-fit md:text-left"}
+            />
+            <Button
+              name={"Ver demo"}
+              href={"https://catalogoweb-demo.vercel.app/"}
+              type={2}
+              style={"mx-auto md:m-0 w-full text-center md:w-fit md:text-left"}
+            />
+          </div>
         </div>
         <div className=" size-full max-w-[596px] max-h-[441px]">
           <img src="/images/image-hero.png" className="size-full" alt="" />
